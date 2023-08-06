@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --ff: "Kumbh Sans", sans-serif;
+  --fs-p: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  font-family: var(--ff);
+  font-size: var(--fs-p);
+}
+.bag {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  margin: 0;
+  height: 550px;
+  padding: 100px;
+}
+.container {
+  width: 70%;
+  height: 400px;
+  background-color: white;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 15px;
+}
+.contain {
+  position: relative;
+  overflow: hidden;
+}
+.faq {
+  margin: 10px;
+  margin-right: 15%;
+}
+.bg {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -110%;
+  bottom: -35%;
+  /* background-size: cover;
+  display: block; */
+}
+.woman {
+  position: absolute;
+  height: 70%;
+  bottom: 20%;
+  left: -10%;
+  display: block;
+}
+.text {
+  display: none;
+  overflow: hidden;
+  font-family: var(--ff);
+  font-size: 11px;
+  line-height: 15px;
+  color: hsl(240, 6%, 50%);
+}
+span {
+  float: right;
+}
+h5:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+.question {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+h5 {
+  font-weight: 100;
+}
+.show_text .text {
+  display: block;
+}
+
+.show_text img {
+  transform: rotate(180deg);
+}
